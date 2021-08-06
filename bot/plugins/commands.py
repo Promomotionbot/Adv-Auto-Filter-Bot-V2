@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '📥 New Movies 📥', url="https://t.me/Movie_Arcade"
                                 )
                         ]
                     ]
@@ -47,12 +47,12 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Group ', url='https://t.me/MovieArcade'),
+        InlineKeyboardButton('Channel', url ='https://t.me/Movie_Arcade')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('❕️ Our Channels ❕️', url='https://t.me/arcade_links')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -70,8 +70,8 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+        InlineKeyboardButton('Group ', url='https://t.me/MovieArcade'),
+        InlineKeyboardButton('Channel', url ='https://t.me/Movie_Arcade')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
@@ -91,7 +91,7 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
+        
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
