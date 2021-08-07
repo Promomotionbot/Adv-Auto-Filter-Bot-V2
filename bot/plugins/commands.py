@@ -24,9 +24,9 @@ async def start(bot, update):
             await update.reply_text(
                 text="ᴊᴏɪɴ ᴛʜɪꜱ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜꜱᴇ ᴍᴇ </b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 🔰JOIN OUR CHANNEL🔰 ", url=f"https://t.me/Movie_Arcade")], 
+                    [ InlineKeyboardButton(text=" 🔰ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🔰 ", url=f"https://t.me/Movie_Arcade")], 
                     [
-                      InlineKeyboardButton('❗️ ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ꜰɪʟᴇꜱ ❗️', url ='https://t.me/MovieArcade')] 
+                      InlineKeyboardButton('❗️ ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ꜰɪʟᴇꜱ ❗️', url ='https://t.me/arcade_links/12')] 
               ])
             )
             return
