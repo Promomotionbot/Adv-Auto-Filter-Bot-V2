@@ -26,7 +26,7 @@ async def start(bot, update):
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text=" 🔰JOIN OUR CHANNEL🔰 ", url=f"https://t.me/Movie_Arcade")], 
                     [
-                      InlineKeyboardButton('🔍🔍', url ='https://t.me/MR_JINN_OF_TG')] 
+                      InlineKeyboardButton('❗️ ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ꜰɪʟᴇꜱ ❗️', url ='https://t.me/MovieArcade')] 
               ])
             )
             return
