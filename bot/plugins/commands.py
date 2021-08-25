@@ -69,10 +69,9 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Group ', url='https://t.me/MovieArcade'),
-        InlineKeyboardButton('Channel', url ='https://t.me/Movie_Arcade')
+        InlineKeyboardButton('📥 Movie Requesting Group 📥', url='https://t.me/MovieArcade')
     ],[
-        InlineKeyboardButton('❕️ Our Channels ❕️', url='https://t.me/arcade_links')
+        InlineKeyboardButton('Close 🔐', callback_data='close')
     ],[
         
     ]]
